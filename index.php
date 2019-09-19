@@ -185,7 +185,7 @@ get_header();
     </div>
     <div class="row" id="email">
       <ion-icon name="mail"></ion-icon>
-      <h6>E-mail: contact@lemak.com.au (test)</h6>
+      <h6>E-mail: contact@lemak.com.au</h6>
     </div>
  </div>
 
