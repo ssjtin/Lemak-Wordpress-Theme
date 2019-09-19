@@ -425,6 +425,10 @@ Text Domain: twentythirteen
     .section-info {
        font-size: 130%;
     }
+
+    #email {
+       width: 600px;
+    }
  
     #footer-logo {
        position: static;
