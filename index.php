@@ -130,7 +130,7 @@ get_header();
                 <h3>Drop us a line</h3>
                 <div class="section-title-line"></div>
             </div>
-    <form  action="https://formspree.io/ssjtin28@hotmail.com" method="POST">
+    <form  action="https://formspree.io/hello@lemak.com.au" method="POST">
         <div class="form-group">
             <label for="name">Name</label>
             <input type="text" name="name" class="form-control" id="name" placeholder="John Smith">
@@ -186,7 +186,7 @@ get_header();
     </div>
     <div class="row justify-content-center" id="email">
       <ion-icon name="mail"></ion-icon>
-      <h6>E-mail: contact@lemak.com.au</h6>
+      <h6>E-mail: hello@lemak.com.au</h6>
     </div>
  </div>
 
