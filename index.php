@@ -130,14 +130,14 @@ get_header();
                 <h3>Drop us a line</h3>
                 <div class="section-title-line"></div>
             </div>
-    <form>
+    <form  action="https://formspree.io/ssjtin28@hotmail.com" method="POST">
         <div class="form-group">
             <label for="name">Name</label>
-            <input type="text" class="form-control" id="name" placeholder="John Smith">
+            <input type="text" name="name" class="form-control" id="name" placeholder="John Smith">
         </div>
         <div class="form-group">
             <label for="emailField">Email address</label>
-            <input type="email" class="form-control" id="emailField" aria-describedby="emailHelp" placeholder="Enter email">
+            <input type="email" name="_replyto" class="form-control" id="emailField" aria-describedby="emailHelp" placeholder="Enter email">
             <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
         </div>
 
@@ -146,7 +146,7 @@ get_header();
             <textarea></textarea>
         </div>
         <div id="button-container">
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" value="Send" class="btn btn-primary">Submit</button>
         </div>
     </form>
 </div>
@@ -183,7 +183,7 @@ get_header();
           </div>
        </div>
     </div>
-    <div class="row" id="email">
+    <div class="row justify-content-center" id="email">
       <ion-icon name="mail"></ion-icon>
       <h6>E-mail: contact@lemak.com.au</h6>
     </div>
