@@ -143,7 +143,8 @@ get_header();
 
         <div class="form-group">
             <label for="message">Message</label>
-            <textarea></textarea>
+            <textarea name="message"></textarea>
+            <input type="hidden" name="_subject" value="Lemak website contact form submission" />
         </div>
         <div id="button-container">
             <button type="submit" value="Send" class="btn btn-primary">Submit</button>
